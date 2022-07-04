@@ -1,0 +1,107 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    border-radius: 20px;
+    border: 3px solid green;
+    outline: 4px solid black;
+}
+
+#display {
+    text-align: right;
+    line-height: 100px;
+    min-height: 110px;
+    padding: 16px 10px;
+    font-size: 60px;
+    color: white;
+    overflow: auto;
+    border-radius: 50px;
+    background: rgb(7, 233, 19);
+    box-shadow: inset -5px -5px 12px #615d5d,
+    inset  5px  5px 12px  rgba(82, 75, 75, 0.897)
+    
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > button {
+    border-style: none;
+    border-radius: 50px;
+    margin: 5px 5px 5px 5px;
+    box-shadow: inset -5px -5px 12px #817c7c,
+                inset  5px  5px 12px  rgba(0, 0, 0, .16)
+    
+    
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+#equal {
+    background-color: rgba(7, 5, 109, 0.993);
+    color: white;
+}
+#equal:hover{
+    background-color:rgb(11, 204, 252);
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.3s ease-in-out;
+    font: bolder;
+}
+
+#clear{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#cero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.button-operation{
+    font-size: xx-large;
+    border-style: none;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: rgb(233, 167, 45);
+    cursor: pointer;
+    box-shadow: inset -5px -5px 12px #f0a606,
+                inset  5px  5px 12px  rgba(252, 144, 3, 0.897)
+}
+.button-operation:hover{
+    background-color:rgb(158, 9, 9);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.container {
+    background: rgb(255, 253, 253);
+}
+
+
+#body{
+    background-image: url("Matrix.png");
+}
